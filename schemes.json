@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "note": "DEMO/CONFIGURABLE CRITERIA ONLY. These values are simplified for hackathon demonstration purposes and are NOT an authoritative source of government scheme rules. Real scheme eligibility must always be verified with the concerned government department or lending institution. Edit this file to add/update/remove schemes without changing any Python code.",
+    "mandatory_disclaimer": "Final eligibility is subject to government/lender verification."
+  },
+  "schemes": [
+    {
+      "scheme_id": "PMFME",
+      "scheme_name": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+      "description": "Demo criteria for a scheme supporting formalisation of micro food processing enterprises. Simplified for hackathon use.",
+      "criteria": {
+        "business_types": ["Food Processing"],
+        "project_cost_min": 0,
+        "project_cost_max": 2000000,
+        "locations": ["Rural", "Urban"],
+        "categories": ["Eligible Category"]
+      },
+      "disclaimer": "Demo criteria only. Final eligibility is subject to government/lender verification."
+    },
+    {
+      "scheme_id": "PMEGP",
+      "scheme_name": "Prime Minister's Employment Generation Programme (PMEGP)",
+      "description": "Demo criteria for a credit-linked subsidy scheme for setting up new micro enterprises. Simplified for hackathon use.",
+      "criteria": {
+        "business_types": ["Food Processing", "Manufacturing", "Service", "Trading"],
+        "project_cost_min": 0,
+        "project_cost_max": 2500000,
+        "locations": ["Rural", "Urban"],
+        "categories": ["Eligible Category"]
+      },
+      "disclaimer": "Demo criteria only. Final eligibility is subject to government/lender verification."
+    },
+    {
+      "scheme_id": "MUDRA",
+      "scheme_name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+      "description": "Demo criteria for a micro-credit scheme (Shishu/Kishor/Tarun loan slabs) for non-farm income generating micro enterprises. Simplified for hackathon use.",
+      "criteria": {
+        "business_types": [],
+        "project_cost_min": 0,
+        "project_cost_max": 1000000,
+        "locations": [],
+        "categories": ["Eligible Category"]
+      },
+      "disclaimer": "Demo criteria only. Final eligibility is subject to government/lender verification."
+    }
+  ]
+}
